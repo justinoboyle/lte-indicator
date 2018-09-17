@@ -1,0 +1,20 @@
+{
+  "name": "lte-indicator",
+  "version": "0.1.0",
+  "main": "main.js",
+  "productName": "LTE Indicator",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager --out build --all --icon icon.icns ."
+  },
+  "devDependencies": {
+    "electron": "^2.0.9",
+    "electron-packager": "^12.1.1"
+  },
+  "dependencies": {
+    "fast-cli": "^2.2.0",
+    "networkbandwidthmonitor": "^1.1.1",
+    "public-ip": "^2.4.0",
+    "whois-ux": "0.0.2"
+  }
+}
